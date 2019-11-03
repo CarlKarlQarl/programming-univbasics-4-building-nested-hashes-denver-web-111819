@@ -62,4 +62,4 @@ def monopoly_with_fourth_tier
 end
 
 
-puts "hello"
+puts base_hash
