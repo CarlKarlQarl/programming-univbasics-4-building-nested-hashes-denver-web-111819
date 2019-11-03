@@ -13,8 +13,8 @@ def monopoly_with_second_tier
   # complexity.
   
   import_hash = base_hash
-  
   import_hash[:railroads][:pieces] = 4
+  
   return import_hash
   
 end
@@ -26,6 +26,8 @@ def monopoly_with_third_tier
   # complexity.
   
   import_hash = monopoly_with_second_tier
+  
+  import_hash[:railroads][:pieces] = 5
   
   return import_hash
   
