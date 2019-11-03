@@ -55,5 +55,4 @@ end
 
 puts base_hash
 puts monopoly_with_second_tier
-puts monopoly_with_second_tier[:railroads][:rent_in_dollars]
 #puts monopoly_with_third_tier
