@@ -28,7 +28,6 @@ def monopoly_with_third_tier
   import_hash = monopoly_with_second_tier
   
   import_hash[:railroads][:rent_in_dollars][:one_piece_owned] = 25
-
   
   return import_hash
   
