@@ -16,7 +16,7 @@ def monopoly_with_second_tier
   
   import_hash = base_hash
   
-  import_hash_hash[:railroads][:pieces] = 4
+  import_hash[:railroads][:pieces] = 4
   return import_hash
   
 end
