@@ -60,3 +60,6 @@ def monopoly_with_fourth_tier
   }
   
 end
+
+
+console.log(base_hash)
