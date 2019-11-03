@@ -28,6 +28,9 @@ def monopoly_with_third_tier
   import_hash = monopoly_with_second_tier
   
   import_hash[:railroads][:rental_in_dollars] = {:one_piece_owned => 25}
+  import_hash[:railroads][:rental_in_dollars] = {:two_pieces_owned => 50}
+  import_hash[:railroads][:rental_in_dollars] = {:three_pieces_owned => 100}
+  import_hash[:railroads][:rental_in_dollars] = {:four_pieces_owned => 200}
   
   return import_hash
   
