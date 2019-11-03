@@ -32,15 +32,12 @@ def monopoly_with_third_tier
       },
       :names => {
         :reading_railroad => {},
-<<<<<<< HEAD
         :pennsylvania_railroad => {},
         :b_and_o_railroad => {},
         :shortline_railroad => {}
-=======
         :two => "two_value",
         :three => "three_value",
         :four => "four_value"
->>>>>>> 20c559783e4f796aa9357f9c587053c35f535678
       }
     }
   }
@@ -54,7 +51,6 @@ def monopoly_with_fourth_tier
   # complexity.
   
   
-<<<<<<< HEAD
   {
     :railroads => {
       :names => {
@@ -65,7 +61,5 @@ def monopoly_with_fourth_tier
       }
     }
   }
-=======
->>>>>>> 20c559783e4f796aa9357f9c587053c35f535678
   
 end
