@@ -58,4 +58,6 @@ def monopoly_with_fourth_tier
   import_hash[:railroads][:names][:b_and_o_railroad] = {"mortgage_value" => "$400"}
   import_hash[:railroads][:names][:shortline_railroad] = {"mortgage_value" => "$800"}
   
+  return import_hash
+  
 end
