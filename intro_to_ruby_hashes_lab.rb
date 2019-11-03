@@ -51,6 +51,12 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
+  import_hash = monopoly_with_third_tier
+  
+  import_hash[:railroads][:names][:reading_railroad] = {"mortgage_value" => "$100"}
+  import_hash[:railroads][:names][:pennsylvania_railroad] = {"mortgage_value" => "$200"}
+  import_hash[:railroads][:names][:b_and_o_railroad] = {"mortgage_value" => "$400"}
+  import_hash[:railroads][:names][:shortline_railroad] = {"mortgage_value" => "$800"}
   
   {
     :railroads => {
